@@ -21,6 +21,7 @@ deploy:
   skip_cleanup: true
   github_token: $GITHUB_TOKEN
   local_dir: dist
+  target_branch: master
   repo: lutsker/lutsker.github.io
   on:
     branch: master
